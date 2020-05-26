@@ -7,8 +7,7 @@
   "repository": "samick17/react-app-patterns",
   "keywords": [
     "React",
-    "ReactJS",
-    "Multiple Tabs"
+    "ReactJS"
   ],
   "main": "index.js",
   "module": "index.es.js",
