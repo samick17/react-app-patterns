@@ -12,7 +12,7 @@ class AbstractModeController extends EventModel {
         this.modes = this.modes || {};
     }
 
-    initializeHandlers(modes) {
+    initializeModes(modes) {
         this.modes = modes;
     }
 
