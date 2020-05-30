@@ -23,6 +23,8 @@ class BaseCommand {
 		this.onAfterInit();
 	}
 
+	onBeforeInit() {}
+
 	onAfterInit() {}
 
 	initializeRequiredArgs() {
