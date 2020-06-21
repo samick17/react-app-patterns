@@ -1,11 +1,8 @@
-import { EventModel } from 'react-event-base/Core';
+class AbstractCommandFactory {
 
-class AbstractCommandFactory extends EventModel {
-
-	constructor(data) {
-		super(data);
-		this.cmdTypes = this.cmdTypes || {};
-		this.extraCmdArgs = this.extraCmdArgs || {};
+	constructor({cmdTypes, extraCmdArgs}={}) {
+		this.cmdTypes = cmdTypes || {};
+		this.extraCmdArgs = extraCmdArgs || {};
 	}
 
 	createCommand(cmdType, args) {
@@ -26,15 +23,20 @@ class AbstractCommandFactory extends EventModel {
 export default AbstractCommandFactory;
 
 /*
+const CmdTypes = {
+	
+};
+
 class CommandFactory extends AbstractCommandFactory {
 	
-	constructor(data) {
-		super(data);
-		this.initializeCommands({
-			
+	constructor(context) {
+		super({
+			cmdTypes: CmdTypes,
+			extraCmdArgs: {
+				context
+			}
 		});
 	}
 
 }
 */
-
