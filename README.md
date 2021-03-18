@@ -1,6 +1,6 @@
-# react-wipc
+# react-app-patterns
 
-> The multiple tabs application for React Project
+> The patterns implementations for common application
 
 [![NPM](https://img.shields.io/npm/v/reacted.svg)](https://www.npmjs.com/package/reacted) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
